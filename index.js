@@ -1,14 +1,16 @@
 // funcion de suma total
+//
+const { ayuda } = require ('./helper.js')
 const suma = (ns) => {
   let acumulado = 0;
   for (i = 0; i < ns.length; i++) {
 
     acumulado += ns[i];
   }
-
+ ayuda()
   return acumulado
 } 
-
+//un 
 const numeros = [1, 2, 3, 4, 5];
 // multiplicar por *2 
 const multiplicados = numeros.map(x => x * 2)
